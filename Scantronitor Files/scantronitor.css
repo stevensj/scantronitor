@@ -1,0 +1,209 @@
+body {
+    margin: 0; 
+    padding: 0; 
+    font-family: verdana, sans-serif;
+    font-size: 11px;
+    background-image:url('images/back.png');
+} 
+
+a {
+    color: #516333;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: verdana,sans-serif;
+}
+
+th {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+h1 {
+    border-bottom: 2px solid #000000;
+    font-family:  verdana, sans-serif;
+    font-size: 36px;
+}
+
+#datatable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse:collapse;
+    background-color: #ffffff;
+}
+
+#datatable td {
+    font-size:12px;
+    border:2px solid #000000;
+    padding:1px 1px 1px 1px;
+    vertical-align: top;
+}
+
+#datatable th {
+    font-size:12px;
+    font-weight: bold;
+    text-align:left;
+    padding-top:5px;
+    padding-bottom:4px;
+    border:2px solid #000000;
+    background-color:#BFD0A4;
+    color:#000;
+}
+
+#datatable tr.alt td {
+    color:#000;
+    background-color:#BFD0A4;
+}
+
+table.header {
+    background-color: #BFD0A4;
+    padding: 10px 10px 10px 10px;
+}               
+
+select {
+    font-size:11px;
+}
+
+input {
+    font-size:11px;
+}
+
+td.toplabel {
+    font-size:11px;
+    font-weight:bold;
+    font-family: verdana, sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: verdana, sans-serif;
+}
+
+#righttable {
+    font-family: Arial, Helvetica, sans-serif;
+    width:200px;
+    border-collapse:collapse;
+    background-color: #ffffff;
+}
+
+#rightable td {
+    font-size:11px;
+    border:2px solid #000000;
+    padding:1px 1px 1px 1px;
+    vertical-align: top;
+}
+
+textarea#styled {         
+    width: 260px;         
+    height: 120px;         
+    border: 3px solid #cccccc;         
+    padding: 5px;         
+    font-family: Tahoma, sans-serif;  
+    font-size: 18px;      
+}
+
+textarea {
+    overflow:auto;
+}
+
+td.element {
+    height: 20px;
+    width: 110px;
+}
+
+td.box100 {
+    height:100px;
+    width: 100px;
+}
+
+td.data {
+    font-size: 11px;
+}
+
+td.sidedata {
+    font-size: 11px;
+    background-image:url('images/sideback.png');
+    background-repeat:no-repeat;
+}
+
+
+input.button1 {
+    width: 200px;
+}
+
+#simplebox {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse:collapse;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    font-size: 12px;
+}
+
+#simplebox td {
+    padding: 5px 5px;
+}
+
+#simplebox img {
+    padding: 25px 25px;
+}
+
+h3 {
+    padding: 0px 0px;
+    margin: 0px;
+}
+
+#linkbox {
+    color:#000;
+    background-color:#ffffff;
+    width: 100%;
+    margin: 0px;
+}
+
+
+#linkbox td {
+    font-size:14px;
+    vertical-align: top;
+    padding: 3px;
+    margin: 0px;
+    text-align: center;
+}
+
+#linkbox td.highlight {
+    background-color: #BFD0A4;
+    font-weight: bold;
+    border-bottom: 2px solid #000000;
+    border-left:2px solid #000000;
+    border-right:2px solid #000000;
+}
+
+#linkbox td.flank {
+    border-top: 2px solid #000000;
+}
+
+#linkbox td.flank {
+    border-top: 2px solid #000000;
+}
+
+#linkbox td.link {
+    border-top: 2px solid #000000;
+}
+
+p.error {
+    font-size: 36px;
+    margin: 48px;
+    color: #ff0000;
+    font-family: verdana, arial;
+    font-weight: bold;
+    text-align: center;
+}
+
+p.errormsg {
+    font-size: 18px;
+    margin: 48px;
+    color: #000000;
+    font-family: verdana, arial;
+    font-weight: bold;
+    text-align: center;
+}
+
+td.altrow {
+    background-color: #dee7d1;
+}

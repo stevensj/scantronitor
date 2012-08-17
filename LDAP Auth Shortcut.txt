@@ -1,0 +1,24 @@
+
+Here is a shortcut to enable LDAP integration with Active Directory / Single Sign on.  
+
+ 
+Add this section to httpd.conf, make the company specific changes and then restart httpd.  
+
+*Where a fully qualified server name follows the naming convention: serverName.domain.company.com
+
+ 
+  <Directory "/your web root/scantronitor">
+
+    AuthType Basic
+
+    AuthName "Scantronitor"
+
+    AuthLDAPURL "ldap://yourcompanydomaincontroller:389/DC=domain,DC=company,DC=com?sAMAccountName?sub?(memberOf=CN=Active_Directory_Group,OU=Your_CONTAINER,DC=domain,DC=company,DC=com)"
+
+    AuthLDAPBindDN "CN=ldapUserID,OU=ldapUsers_OU,dc=domain,dc=company,dc=com"
+
+    AuthLDAPBindPassword "XyyZZXXyyZZxx"
+
+    require valid-user
+
+</Directory>
